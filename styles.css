@@ -5,6 +5,39 @@ ul, ol {margin-top:0px;margin-bottom:0px;line-height:150%}
 hr {border:1px solid black}
 .f200 {font-size:200%}
 
+sec {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 12px 0;
+    padding: 15px;
+    background-color: #FFFDE7;
+    display: block;
+}
+
+sec hr {
+    border: 0.5px solid black;
+}
+
+refs {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+}
+
+.cell {
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 3px;
+    padding: 10px;
+    background-color: #FFF9C4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+
 table {border-collapse:collapse;margin-top:3px;margin-bottom:3px}
 td,th {border:1px solid black;padding:5px}
 .vat,.vat td {vertical-align:top}
